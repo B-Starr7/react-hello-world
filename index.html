@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>React Hello World</title>
+</head>
+<body>
+    <!-- <div id="application-root"></div>
+
+<script src="https://unpkg.com/react@16/umd/react.development.js">
+</script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js">
+</script>
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js">
+</script> -->
+
+
+
+<header>
+        <h1>Resume</h1>
+        <h2>Sall Student</h2>
+    </header>
+    <main id="resume">
+    </main>
+    <script src="https://unpkg.com/react@16/umd/react.development.js">
+    </script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js">
+    </script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js">
+    </script>
+    <script type="text/babel">
+        function App() {
+            return (
+                <section>
+                        <p>I'm an aspiring full stack web developer. I love cats, coding, and crocheting.</p>
+                        <h2>Education</h2>
+                    <p>Google (August 2013 - Present) | VP of Development | Leading up Google's dev team.</p>
+                    <p>Facebook (July 2009-August 2013) | Web Developer | Developed Facebook.</p>
+                    <address>
+                        <img src ="https://ia.media-imdb.com/images/M/MV5BMTY5NzE3NzU3MF5BMl5BanBnXkFtZTgwMjg0NTQ5MDE@._V1_UX214_CR0,0,214,317_AL_.jpg" alt ="Sally"></img>
+                        <h2>Sally Student</h2>
+                        <p><a href="sallystudent@email.com">sallystudent@email.com</a></p>
+                        <p>2742 West 23433 North Bahamas, US</p>
+                        <p><a href="tel:382-773-2733">382-773-2733</a></p>
+                    </address>
+                </section>
+            );
+        }
+        // Nested elements inside the App
+        ReactDOM.render(
+            <App></App>,
+            document.querySelector('#resume')
+        );
+    </script>
+
+
+<!-- <script type="text/babel">
+    Code goes here
+   function App(props) {
+       console.log(props);
+       return (
+           <header>
+                {props.children}
+           </header>
+       );
+   }
+   
+   ReactDOM.render(
+        <App className='my-class'>
+            <h1>Current Page Title!</h1>
+        </App>,
+        document.querySelector('#application-root')
+   ); -->
+   
+   
+    <!-- // ReactDOM.render(
+    //     <div>
+    //         <h1>Hello, World!</h1>
+    //         <p>How are you today?</p>
+    //         <h2>Look what React can do!</h2>
+    //     </div>,
+    //     document.querySelector('#application-root')
+    // );
+
+    // ReactDOM.render(element, container);
+
+    // const appRoot = document.querySelector('#application-root'); uncheck
+
+    // ReactDOM.render('Hello, World!', appRoot);
+
+    // const helloWorldH1 = React.createElement('h1', null, 'Hello World!');
+//     const helloWorldH1 = <h1>Hello, World!</h1>; uncheck -->
+
+<!-- //     ReactDOM.render(helloWorldH1, appRoot); uncheck
+// </script> -->
+</body>
+</html>
+
